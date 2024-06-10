@@ -1,0 +1,7 @@
+Commands given:
+docker run devopsdockeruh/simple-web-service:ubuntu
+docker exec -it busy_wing bash
+tail -f ./text.log
+---------------------------------------------
+Secret message:
+'You can find the source code here: https://github.com/docker-hy'
