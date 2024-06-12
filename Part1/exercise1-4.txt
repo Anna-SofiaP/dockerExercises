@@ -1,0 +1,8 @@
+Commands used:
+1. docker run -d -it --name yay ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+2. docker exec -it yay bash
+Inside the container:
+3. apt-get update
+4. apt-get install curl
+In another window:
+5. docker attach yay
