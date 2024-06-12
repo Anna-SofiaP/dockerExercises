@@ -1,0 +1,7 @@
+Size comparison of the two images:
+- devopsdockeruh/simple-web-service:ubuntu, size: 83   MB
+- devopsdockeruh/simple-web-service:apline, size: 15.7 MB
+
+Secret messages:
+- You can find the source code here: https://github.com/docker-hy
+- You can find the source code here: https://github.com/docker-hy
