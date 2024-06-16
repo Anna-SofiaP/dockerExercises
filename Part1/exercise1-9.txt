@@ -1,0 +1,5 @@
+Create a file called 'text.log':
+touch text.log
+
+Run the container:
+docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
