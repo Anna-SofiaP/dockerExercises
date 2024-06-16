@@ -7,6 +7,8 @@ WORKDIR /usr/src/app
 # Copy the source code
 COPY /material-applications/example-backend .
 
+ENV REQUEST_ORIGIN=http://localhost:5000 PORT=8080
+
 # Build the project
 RUN go build
 

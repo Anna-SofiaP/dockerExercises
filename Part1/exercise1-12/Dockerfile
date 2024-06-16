@@ -12,7 +12,8 @@ RUN npm install
 COPY /material-applications/example-frontend . 
 
 # Build the application
-RUN npm run build
+# RUN npm run build <-- This was used for exercise 1.12!
+RUN REACT_APP_BACKEND_URL=http://localhost:8080 npm run build
 # Install 'serve' to serve the application
 RUN npm install -g serve
 
